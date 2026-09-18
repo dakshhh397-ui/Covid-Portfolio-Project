@@ -23,8 +23,8 @@ All analysis is done using raw SQL — joins, CTEs, window functions, aggregate 
 
 | File | Description | Rows |
 |------|-------------|------|
-| `CovidDeaths1.csv` | Cases, deaths, ICU/hospital data, population & demographic stats by country/date | ~85,000 |
-| `CovidVaccinations1.csv` | Vaccination, testing, and stringency index data by country/date | ~85,000 |
+| `CovidDeaths.csv` | Cases, deaths, ICU/hospital data, population & demographic stats by country/date | ~85,000 |
+| `CovidVaccinations.csv` | Vaccination, testing, and stringency index data by country/date | ~85,000 |
 
 **Source:** Our World in Data (OWID) COVID-19 dataset.
 
