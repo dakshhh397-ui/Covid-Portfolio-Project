@@ -65,8 +65,8 @@ All analysis is done using raw SQL — joins, CTEs, window functions, aggregate 
 ## 📁 Files in this Repo
 
 - `covid_project.sql` — full SQL script (table setup, data import, all queries & analysis)
-- `CovidDeaths1.csv` — cases/deaths dataset
-- `CovidVaccinations1.csv` — vaccinations/testing dataset
+- `CovidDeaths.csv` — cases/deaths dataset
+- `CovidVaccinations.csv` — vaccinations/testing dataset
 
 ---
 
