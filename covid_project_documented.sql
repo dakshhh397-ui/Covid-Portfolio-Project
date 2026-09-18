@@ -33,7 +33,7 @@ SELECT * FROM coviddeaths;
    ------------------------------------------------------------ */
 
 -- Import vaccination + testing data
-LOAD DATA INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/covidvaccinations1.csv"
+LOAD DATA INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/covidvaccinations.csv"
 INTO TABLE covidvaccinations
 FIELDS TERMINATED BY ',' 
 OPTIONALLY ENCLOSED BY '"'
@@ -41,7 +41,7 @@ LINES TERMINATED BY '\n'
 IGNORE 1 LINES;                       -- skip header row
 
 -- Import cases + deaths data
-LOAD DATA INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Coviddeaths1.csv"
+LOAD DATA INFILE "C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Coviddeaths.csv"
 INTO TABLE coviddeaths
 FIELDS TERMINATED BY ',' 
 OPTIONALLY ENCLOSED BY '"'
